@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrjaSaarthi - Professional Solar Advisor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              solar: {
+                DEFAULT: '#0f6f5c',
+                dark: '#0a4d40',
+                light: '#e7f1ef',
+                accent: '#14967c',
+                secondary: '#2e9b89'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body { font-family: 'Space Grotesk', sans-serif; }
+        h1, h2, h3, .font-heading { font-family: 'Lexend', sans-serif; }
+        
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 24px;
+            width: 24px;
+            border-radius: 50%;
+            background: #0f6f5c;
+            cursor: pointer;
+            border: 4px solid #ffffff;
+            box-shadow: 0 4px 10px rgba(15, 111, 92, 0.3);
+        }
+        
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(15, 111, 92, 0.1);
+        }
+        
+        .text-glow-green {
+            text-shadow: 0 0 20px rgba(15, 111, 92, 0.2);
+        }
+
+        @media print {
+          .no-print { display: none !important; }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "jspdf": "https://esm.sh/jspdf@^2.5.1",
+    "jspdf-autotable": "https://esm.sh/jspdf-autotable@^3.8.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white text-slate-900 antialiased overflow-x-hidden">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

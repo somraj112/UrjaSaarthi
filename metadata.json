@@ -1,0 +1,7 @@
+{
+  "name": "UrjaSaarthi 2.0",
+  "description": "A comprehensive solar energy advisor that calculates your needs based on appliances, analyzes financial benefits, and finds local subsidies and providers using AI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
