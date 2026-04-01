@@ -37,9 +37,9 @@ It turns complex energy calculations into **simple, actionable insights** — so
 
 ## Screenshots
 
-```
+<img width="1512" height="849" alt="Screenshot 2026-04-01 at 11 26 08 PM" src="https://github.com/user-attachments/assets/6f5ab994-07ae-4674-b42e-263e5b28e0e8" />
 
-```
+<img width="1512" height="849" alt="Screenshot 2026-04-01 at 11 26 35 PM" src="https://github.com/user-attachments/assets/b0cf34ff-c2a0-426c-b747-2995b43355bc" />
 
 ---
 
